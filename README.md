@@ -13,25 +13,25 @@ With the concepts of VIPER from [objc.io](https://www.objc.io/issues/13-architec
 
 ##Install:
 
-1. Open terminal and do the next
+- Open terminal and do next commands
 
 `cd Templates && make install_templates`
 
 ![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step1.png)
 
-2. Add the file **RoutingProtocol.swift** to your project
+- Add the file **RoutingProtocol.swift** to your project
 
 ![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step2.png)
 
-3. New File and select VIPER Scene and NEXT
+- New File and select VIPER Scene and NEXT
 
 ![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step3.png)
 
-4. Choose name and finalize
+- Choose name and finalize
 
 ![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step4.png)
 
-5. Configure your appDelegate to load first your routing or See the example project
+- Configure your appDelegate to load your routing or see the example project
 
 ```swift
 self.window = UIWindow()
@@ -42,4 +42,4 @@ self.window!.makeKeyAndVisible()
 ```
 
 
-6. See our example to understand.
+- See our example project to understand.
