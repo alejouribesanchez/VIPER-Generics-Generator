@@ -10,7 +10,7 @@
 
 import UIKit
 
-class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ViewControllerProtocolBase {
+class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter, ViewControllerProtocolBase {
     typealias PresenterType = ___FILEBASENAMEASIDENTIFIER___PresenterProtocolView
     
     var presenter:___FILEBASENAMEASIDENTIFIER___PresenterProtocolView!
@@ -19,7 +19,7 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ViewContro
     // MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        presenter.viewDidLoad()
+        
         
         // Do any additional setup after loading the view.
     }
@@ -51,7 +51,3 @@ class ___FILEBASENAMEASIDENTIFIER___ViewController: UIViewController, ViewContro
     
 }
 
-//MARK: - ProtocolPresenter
-extension ___FILEBASENAMEASIDENTIFIER___ViewController_: ___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter{
-    
-}

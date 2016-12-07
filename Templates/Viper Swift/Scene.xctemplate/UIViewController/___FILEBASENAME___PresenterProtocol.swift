@@ -10,7 +10,7 @@
 
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocolView: PresenterProtocolViewBase {
-    func viewLoaded()
+
 }
 
 protocol ___FILEBASENAMEASIDENTIFIER___PresenterProtocolInteractor: PresenterProtocolInteractorBase {
