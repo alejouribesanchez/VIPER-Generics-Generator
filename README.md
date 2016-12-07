@@ -1,6 +1,8 @@
-# VIPER-Generics-Generator iOS Architecture Pattern Swift 3.0
+# VIPER iOS Architecture Pattern Swift 3.0
 
 ##Concepts:
+
+VIPER-Generics-Generator
 
 Automatic generator of classes with protocols to comunicate over VIPER
 
