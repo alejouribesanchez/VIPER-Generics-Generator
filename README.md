@@ -6,7 +6,7 @@ Based on templates created on [Clean Swift](http://clean-swift.com/) by [@rayvin
 
 With the concepts of VIPER from [objc.io](https://www.objc.io/issues/13-architecture/viper/#interactor)
 
-![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/Images/viper.png)
+![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/viper.png)
 
 
 to install:
@@ -15,17 +15,17 @@ to install:
 
 `cd Templates && make install_templates`
 
-![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/Images/step1.png)
+![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step1.png)
 
 2. Add the file **RoutingProtocol.swift** to your project
 
-![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/Images/step2.png)
+![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step2.png)
 
 3. New File and select VIPER Scene and NEXT
 
-![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/Images/step3.png)
+![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step3.png)
 
-![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/Images/step4.png)
+![alt tag](https://github.com/alejouribesanchez/VIPER-Generics-Generator/blob/master/Images/step4.png)
 
 4. Configure your appDelegate to load first your routing or See the example project:
 `self.window = UIWindow()`
@@ -33,3 +33,5 @@ to install:
 `let routing = ViperRouting()`
 `try! routing.loadFromWindow(window: window!)`
 `self.window!.makeKeyAndVisible()`
+
+5.See our Example
