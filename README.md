@@ -2,7 +2,7 @@
 
 ##Concepts:
 
-A generator of classes with protocols to comunicate over VIPER
+Automatic generator of classes with protocols to comunicate over VIPER
 
 Based on templates created on [Clean Swift](http://clean-swift.com/) by [@rayvinly](https://twitter.com/rayvinly)
 
