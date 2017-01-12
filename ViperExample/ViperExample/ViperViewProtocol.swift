@@ -9,8 +9,6 @@
 //
 
 protocol ViperViewProtocolPresenter:ViewProtocolPresenterBase {
-    
     func setData()
-    
 }
 

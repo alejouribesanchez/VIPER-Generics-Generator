@@ -20,31 +20,17 @@ class ViperViewController: UIViewController, ViperViewProtocolPresenter, ViewCon
     // MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         // Do any additional setup after loading the view.
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
     @IBAction func buttonAction(_ sender: Any) {
-        
         print("VIEW CONTROLLER CALL PRESENTER")
         presenter.loadData()
-        
     }
     
-    
     func setData() {
-        
         print("ARRIVE DATA FROM PRESENTER")
         label.text = "DATA LOADED"
     }
-  
-    
-    
 }
 
