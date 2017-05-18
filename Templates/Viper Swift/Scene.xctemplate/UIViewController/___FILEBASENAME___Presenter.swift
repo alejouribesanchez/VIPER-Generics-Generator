@@ -9,7 +9,7 @@
 //
 
 
-class ___FILEBASENAMEASIDENTIFIER___Presenter:___FILEBASENAMEASIDENTIFIER___PresenterProtocolView,___FILEBASENAMEASIDENTIFIER___PresenterProtocolInteractor,PresenterProtocolBase {
+class ___FILEBASENAMEASIDENTIFIER___Presenter: PresenterProtocolBase {
     typealias ViewControllerType = ___FILEBASENAMEASIDENTIFIER___ViewProtocolPresenter
     typealias RoutingType = ___FILEBASENAMEASIDENTIFIER___Routing
     
@@ -20,7 +20,12 @@ class ___FILEBASENAMEASIDENTIFIER___Presenter:___FILEBASENAMEASIDENTIFIER___Pres
     required init() {
         // init of presenter
     }
-    
-    
-    
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Presenter:  ___FILEBASENAMEASIDENTIFIER___PresenterProtocolView { 
+
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___Presenter:  ___FILEBASENAMEASIDENTIFIER___PresenterProtocolInteractor { 
+
 }

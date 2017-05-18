@@ -8,7 +8,6 @@ class ViperViewController: UIViewController, ViperViewProtocolPresenter, ViewCon
     typealias PresenterType = ViperPresenterProtocolView
     var presenter:ViperPresenterProtocolView!
     @IBOutlet weak var label: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
